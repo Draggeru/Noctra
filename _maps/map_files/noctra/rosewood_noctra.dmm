@@ -516,7 +516,7 @@
 	dir = 8
 	},
 /turf/open/floor/metal/alt,
-/area/rogue/outdoors/mountains)
+/area/rogue/outdoors/town)
 "aqk" = (
 /obj/structure/grindwheel,
 /turf/open/floor/cobble,
@@ -1400,10 +1400,6 @@
 /obj/structure/fake_machine/scomm/r,
 /turf/open/floor/blocks/stonered/tiny,
 /area/rogue/indoors/town/dwarfin)
-"aPb" = (
-/obj/structure/train/carriage/not_train,
-/turf/open/floor/snow,
-/area/rogue/outdoors/rtfield)
 "aPu" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
@@ -4727,6 +4723,14 @@
 	dir = 1
 	},
 /area/rogue/indoors/town/manor)
+"cEu" = (
+/obj/machinery/light/fueledstreet/blue{
+	dir = 1;
+	pixel_x = 5;
+	pixel_y = 21
+	},
+/turf/open/floor/cobblerock,
+/area/rogue/outdoors/town)
 "cEy" = (
 /turf/closed/wall/mineral/wooddark/end{
 	dir = 8
@@ -6825,12 +6829,6 @@
 /obj/item/canvas,
 /turf/open/floor/ruinedwood/turned/darker,
 /area/rogue/indoors/town)
-"dLc" = (
-/obj/structure/chair/hotspring_bench/right{
-	dir = 1
-	},
-/turf/open/floor/cobble,
-/area/rogue/indoors/villagegarrison)
 "dLh" = (
 /turf/open/floor/wood/nosmooth,
 /area/rogue/indoors)
@@ -7392,12 +7390,6 @@
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/blocks/newstone,
 /area/rogue/under/town/basement)
-"edb" = (
-/obj/structure/chair/hotspring_bench/right{
-	dir = 1
-	},
-/turf/open/floor/cobble,
-/area/rogue/under/cave)
 "edl" = (
 /obj/structure/rack/shelf/big,
 /obj/item/weapon/pick{
@@ -12070,12 +12062,6 @@
 /obj/machinery/light/fueled/wallfire/candle/l,
 /turf/open/floor/ruinedwood/spiral,
 /area/rogue/indoors/town/manor)
-"gME" = (
-/obj/structure/chair/hotspring_bench/left{
-	dir = 1
-	},
-/turf/open/floor/cobble,
-/area/rogue/indoors/villagegarrison)
 "gMG" = (
 /obj/structure/chair/bench/couch/left/lord_primary,
 /turf/open/floor/tile,
@@ -13026,11 +13012,11 @@
 /turf/open/floor/church,
 /area/rogue/indoors/town/church)
 "hnu" = (
-/obj/structure/fluff/railing/border{
-	dir = 4
+/obj/structure/chair/hotspring_bench/left{
+	dir = 1
 	},
-/turf/open/floor/metal/alt,
-/area/rogue/outdoors/mountains)
+/turf/open/floor/cobble,
+/area/rogue/indoors/villagegarrison)
 "hnv" = (
 /obj/structure/bearpelt{
 	pixel_x = -7;
@@ -13237,12 +13223,6 @@
 /obj/structure/well/climb_down,
 /turf/open/floor/snow,
 /area/rogue/outdoors/town)
-"hvb" = (
-/obj/structure/chair/hotspring_bench{
-	dir = 1
-	},
-/turf/open/floor/cobble,
-/area/rogue/indoors/villagegarrison)
 "hvc" = (
 /obj/structure/fermentation_keg/random/beer,
 /turf/open/floor/herringbone,
@@ -13303,7 +13283,7 @@
 "hxb" = (
 /obj/structure/fluff/walldeco/steward,
 /turf/open/transparent/openspace,
-/area/rogue/outdoors/mountains)
+/area/rogue/outdoors/town)
 "hxg" = (
 /obj/structure/bookcase,
 /turf/open/floor/ruinedwood/chevron,
@@ -15439,11 +15419,11 @@
 /turf/closed/wall/mineral/roofwall/center,
 /area/rogue/indoors/town)
 "iLv" = (
-/obj/structure/fluff/railing/border{
+/obj/structure/chair/hotspring_bench/right{
 	dir = 1
 	},
-/turf/open/floor/metal,
-/area/rogue/outdoors/mountains)
+/turf/open/floor/cobble,
+/area/rogue/indoors/villagegarrison)
 "iLx" = (
 /obj/structure/fluff/railing/wood,
 /obj/structure/fluff/railing/wood{
@@ -16250,11 +16230,11 @@
 /turf/open/floor/churchrough,
 /area/rogue/indoors/town/church)
 "jlX" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
+/obj/structure/chair/hotspring_bench{
+	dir = 1
 	},
-/turf/open/floor/metal/alt,
-/area/rogue/outdoors/mountains)
+/turf/open/floor/cobble,
+/area/rogue/under/cave)
 "jmf" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -24398,6 +24378,12 @@
 /obj/effect/mapping_helpers/access/keyset/town/mercenary,
 /turf/open/floor/wood,
 /area/rogue/indoors/town/merc_guild)
+"nPh" = (
+/obj/structure/chair/hotspring_bench{
+	dir = 1
+	},
+/turf/open/floor/cobble,
+/area/rogue/indoors/villagegarrison)
 "nPo" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/snow/patchy,
@@ -24652,14 +24638,6 @@
 "nVT" = (
 /turf/closed/wall/mineral/decostone/center,
 /area/rogue/indoors/town/clinic_large)
-"nWb" = (
-/obj/machinery/light/fueledstreet/blue{
-	dir = 1;
-	pixel_x = 5;
-	pixel_y = 21
-	},
-/turf/open/floor/cobblerock,
-/area/rogue/outdoors/town)
 "nWc" = (
 /obj/structure/door/stone{
 	name = "Church's Innards"
@@ -28402,11 +28380,9 @@
 /turf/open/floor/cobblerock/alt,
 /area/rogue/indoors/soilsons)
 "pRZ" = (
-/obj/structure/chair/hotspring_bench/left{
-	dir = 1
-	},
-/turf/open/floor/cobble,
-/area/rogue/under/cave)
+/obj/structure/train/carriage/not_train,
+/turf/open/floor/snow,
+/area/rogue/outdoors/rtfield)
 "pSy" = (
 /obj/structure/fluff/statue/gargoyle,
 /obj/structure/fluff/walldeco/vinez/blue,
@@ -28930,12 +28906,6 @@
 	},
 /turf/closed/wall/mineral/decorstone,
 /area/rogue/indoors/town/manor)
-"qjN" = (
-/obj/structure/chair/hotspring_bench{
-	dir = 1
-	},
-/turf/open/floor/cobble,
-/area/rogue/under/cave)
 "qjP" = (
 /turf/closed/wall/mineral/decowood,
 /area/rogue/indoors/town/tavern)
@@ -37652,14 +37622,6 @@
 /obj/structure/flora/grass/bush/wall/tall/tundra,
 /turf/open/floor/dirt,
 /area/rogue/outdoors)
-"uSa" = (
-/obj/machinery/light/fueledstreet/blue{
-	dir = 4;
-	pixel_x = -4;
-	pixel_y = 23
-	},
-/turf/open/floor/cobblerock,
-/area/rogue/outdoors/town)
 "uSe" = (
 /turf/open/floor/grass/cold,
 /area/rogue/indoors/town/magician)
@@ -39108,7 +39070,7 @@
 	pixel_x = 23
 	},
 /turf/open/floor/metal,
-/area/rogue/outdoors/mountains)
+/area/rogue/outdoors/town)
 "vCE" = (
 /obj/structure/closet/crate/crafted_closet/dark,
 /obj/item/flashlight/flare/torch/lantern,
@@ -39531,9 +39493,11 @@
 /turf/open/floor/wood,
 /area/rogue/indoors/town/tavern)
 "vOy" = (
-/obj/structure/fluff/railing/border,
-/turf/open/floor/metal,
-/area/rogue/outdoors/mountains)
+/obj/structure/chair/hotspring_bench/left{
+	dir = 1
+	},
+/turf/open/floor/cobble,
+/area/rogue/under/cave)
 "vOS" = (
 /obj/machinery/light/fueled/hearth,
 /obj/item/reagent_containers/glass/bucket/pot,
@@ -40371,6 +40335,12 @@
 /obj/structure/hotspring/border/nine,
 /turf/open/water/cleanshallow,
 /area/rogue/indoors/town/bath)
+"wlX" = (
+/obj/structure/chair/hotspring_bench/right{
+	dir = 1
+	},
+/turf/open/floor/cobble,
+/area/rogue/under/cave)
 "wlZ" = (
 /obj/structure/fluff/railing/border{
 	dir = 1
@@ -41586,6 +41556,14 @@
 /obj/item/book/manners,
 /turf/open/floor/wood/nosmooth/saiga,
 /area/rogue/indoors/town/manor)
+"wWv" = (
+/obj/machinery/light/fueledstreet/blue{
+	dir = 4;
+	pixel_x = -4;
+	pixel_y = 23
+	},
+/turf/open/floor/cobblerock,
+/area/rogue/outdoors/town)
 "wWC" = (
 /obj/machinery/light/fueled/wallfire/candle/weak/r,
 /obj/structure/table/wood/plain_alt,
@@ -43776,6 +43754,7 @@
 "ykF" = (
 /obj/structure/door/viewport,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/general,
 /turf/open/floor/ruinedwood/turned/darker,
 /area/rogue/indoors/town/manorgate)
 "ykS" = (
@@ -99858,10 +99837,10 @@ gdS
 rIb
 qGM
 hxb
-ehP
-ehP
-ehP
-ehP
+jKl
+jKl
+jKl
+jKl
 ehP
 ehP
 rMM
@@ -100059,11 +100038,11 @@ doa
 doa
 wwj
 ggZ
-jlX
-jlX
-jlX
+siD
+siD
+siD
 aqh
-ehP
+jKl
 ehP
 rMM
 rMM
@@ -100261,11 +100240,11 @@ gYJ
 doa
 nPt
 ggZ
-knN
-knN
-knN
-vOy
-ehP
+loG
+loG
+loG
+kNj
+jKl
 ehP
 rMM
 rMM
@@ -100463,11 +100442,11 @@ doa
 doa
 doa
 ggZ
-hnu
+pdp
 vBP
-knN
-vOy
-ehP
+loG
+kNj
+jKl
 ehP
 rMM
 rMM
@@ -100665,11 +100644,11 @@ aXc
 vcT
 aXc
 uCa
-ehP
-iLv
-knN
-vOy
-ehP
+jKl
+pca
+loG
+kNj
+jKl
 rMM
 rMM
 rMM
@@ -100743,7 +100722,7 @@ nyW
 omp
 pmI
 pmI
-pRZ
+vOy
 yal
 qJl
 qJl
@@ -100945,7 +100924,7 @@ eFa
 omp
 pmI
 pmI
-qjN
+jlX
 yal
 qJl
 qJl
@@ -101147,7 +101126,7 @@ hYD
 omp
 pmI
 pmI
-edb
+wlX
 yal
 qJl
 qJl
@@ -101346,7 +101325,7 @@ wPX
 mlj
 mlj
 tJB
-uSa
+wWv
 omp
 pmI
 yal
@@ -102558,7 +102537,7 @@ rbf
 mlj
 mlj
 tJB
-nWb
+cEu
 pmI
 omp
 mQx
@@ -102763,7 +102742,7 @@ dzT
 pmI
 pmI
 pmI
-gME
+hnu
 mQx
 mQx
 mQx
@@ -102965,7 +102944,7 @@ eFa
 pmI
 pmI
 pmI
-hvb
+nPh
 mQx
 mQx
 mQx
@@ -103167,7 +103146,7 @@ gzt
 omp
 pmI
 pmI
-dLc
+iLv
 mQx
 mQx
 mQx
@@ -160544,7 +160523,7 @@ sop
 sop
 xQg
 vAU
-aPb
+pRZ
 xQg
 rNL
 nMq
