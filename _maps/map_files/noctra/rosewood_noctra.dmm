@@ -1400,6 +1400,10 @@
 /obj/structure/fake_machine/scomm/r,
 /turf/open/floor/blocks/stonered/tiny,
 /area/rogue/indoors/town/dwarfin)
+"aPb" = (
+/obj/structure/train/carriage/not_train,
+/turf/open/floor/snow,
+/area/rogue/outdoors/rtfield)
 "aPu" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
@@ -6821,6 +6825,12 @@
 /obj/item/canvas,
 /turf/open/floor/ruinedwood/turned/darker,
 /area/rogue/indoors/town)
+"dLc" = (
+/obj/structure/chair/hotspring_bench/right{
+	dir = 1
+	},
+/turf/open/floor/cobble,
+/area/rogue/indoors/villagegarrison)
 "dLh" = (
 /turf/open/floor/wood/nosmooth,
 /area/rogue/indoors)
@@ -7382,6 +7392,12 @@
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/blocks/newstone,
 /area/rogue/under/town/basement)
+"edb" = (
+/obj/structure/chair/hotspring_bench/right{
+	dir = 1
+	},
+/turf/open/floor/cobble,
+/area/rogue/under/cave)
 "edl" = (
 /obj/structure/rack/shelf/big,
 /obj/item/weapon/pick{
@@ -12054,6 +12070,12 @@
 /obj/machinery/light/fueled/wallfire/candle/l,
 /turf/open/floor/ruinedwood/spiral,
 /area/rogue/indoors/town/manor)
+"gME" = (
+/obj/structure/chair/hotspring_bench/left{
+	dir = 1
+	},
+/turf/open/floor/cobble,
+/area/rogue/indoors/villagegarrison)
 "gMG" = (
 /obj/structure/chair/bench/couch/left/lord_primary,
 /turf/open/floor/tile,
@@ -13215,6 +13237,12 @@
 /obj/structure/well/climb_down,
 /turf/open/floor/snow,
 /area/rogue/outdoors/town)
+"hvb" = (
+/obj/structure/chair/hotspring_bench{
+	dir = 1
+	},
+/turf/open/floor/cobble,
+/area/rogue/indoors/villagegarrison)
 "hvc" = (
 /obj/structure/fermentation_keg/random/beer,
 /turf/open/floor/herringbone,
@@ -17385,7 +17413,9 @@
 /area/rogue/under/town/basement)
 "jRk" = (
 /obj/structure/fluff/sellsign{
-	name = "TRAIN SERVICE BELOW"
+	name = "TRAIN SERVICE BELOW";
+	pixel_x = 0;
+	pixel_y = 13
 	},
 /obj/machinery/light/fueledstreet/blue/wall,
 /turf/open/floor/cobblerock,
@@ -24622,6 +24652,14 @@
 "nVT" = (
 /turf/closed/wall/mineral/decostone/center,
 /area/rogue/indoors/town/clinic_large)
+"nWb" = (
+/obj/machinery/light/fueledstreet/blue{
+	dir = 1;
+	pixel_x = 5;
+	pixel_y = 21
+	},
+/turf/open/floor/cobblerock,
+/area/rogue/outdoors/town)
 "nWc" = (
 /obj/structure/door/stone{
 	name = "Church's Innards"
@@ -28364,9 +28402,11 @@
 /turf/open/floor/cobblerock/alt,
 /area/rogue/indoors/soilsons)
 "pRZ" = (
-/obj/effect/landmark/events/animal_migration_point,
-/turf/open/floor/cobblerock/snow,
-/area/rogue/outdoors/town)
+/obj/structure/chair/hotspring_bench/left{
+	dir = 1
+	},
+/turf/open/floor/cobble,
+/area/rogue/under/cave)
 "pSy" = (
 /obj/structure/fluff/statue/gargoyle,
 /obj/structure/fluff/walldeco/vinez/blue,
@@ -28890,6 +28930,12 @@
 	},
 /turf/closed/wall/mineral/decorstone,
 /area/rogue/indoors/town/manor)
+"qjN" = (
+/obj/structure/chair/hotspring_bench{
+	dir = 1
+	},
+/turf/open/floor/cobble,
+/area/rogue/under/cave)
 "qjP" = (
 /turf/closed/wall/mineral/decowood,
 /area/rogue/indoors/town/tavern)
@@ -37606,6 +37652,14 @@
 /obj/structure/flora/grass/bush/wall/tall/tundra,
 /turf/open/floor/dirt,
 /area/rogue/outdoors)
+"uSa" = (
+/obj/machinery/light/fueledstreet/blue{
+	dir = 4;
+	pixel_x = -4;
+	pixel_y = 23
+	},
+/turf/open/floor/cobblerock,
+/area/rogue/outdoors/town)
 "uSe" = (
 /turf/open/floor/grass/cold,
 /area/rogue/indoors/town/magician)
@@ -100286,7 +100340,7 @@ pmI
 omp
 rMM
 qJl
-qJl
+yal
 qJl
 qJl
 vVH
@@ -100488,7 +100542,7 @@ omp
 omp
 omp
 qJl
-qJl
+yal
 qJl
 qJl
 vVH
@@ -100689,8 +100743,8 @@ nyW
 omp
 pmI
 pmI
-qJl
-qJl
+pRZ
+yal
 qJl
 qJl
 vVH
@@ -100891,8 +100945,8 @@ eFa
 omp
 pmI
 pmI
-qJl
-qJl
+qjN
+yal
 qJl
 qJl
 qJl
@@ -101093,8 +101147,8 @@ hYD
 omp
 pmI
 pmI
+edb
 yal
-qJl
 qJl
 qJl
 qJl
@@ -101292,7 +101346,7 @@ wPX
 mlj
 mlj
 tJB
-omp
+uSa
 omp
 pmI
 yal
@@ -101696,7 +101750,7 @@ vuw
 vuw
 iRH
 qjP
-omp
+czX
 omp
 omp
 jnM
@@ -102099,8 +102153,8 @@ vuw
 vHt
 tqx
 urA
-tJB
-omp
+qjP
+knA
 jmU
 omp
 jnM
@@ -102300,8 +102354,8 @@ vHt
 vuw
 vuw
 eZe
-qjP
 tJB
+qjP
 eGO
 omp
 omp
@@ -102504,9 +102558,9 @@ rbf
 mlj
 mlj
 tJB
-omp
+nWb
 pmI
-rMM
+omp
 mQx
 mQx
 mQx
@@ -102708,8 +102762,8 @@ mlj
 dzT
 pmI
 pmI
-rMM
-mQx
+pmI
+gME
 mQx
 mQx
 mQx
@@ -102910,8 +102964,8 @@ wZA
 eFa
 pmI
 pmI
-rMM
-mQx
+pmI
+hvb
 mQx
 mQx
 mQx
@@ -103112,8 +103166,8 @@ leA
 gzt
 omp
 pmI
-rMM
-mQx
+pmI
+dLc
 mQx
 mQx
 mQx
@@ -103314,7 +103368,7 @@ lTl
 qMy
 omp
 pmI
-rMM
+omp
 vWl
 mQx
 mQx
@@ -104696,7 +104750,7 @@ aqk
 eIy
 knA
 omp
-pmI
+omp
 pmI
 omp
 omp
@@ -104897,8 +104951,8 @@ psW
 eKh
 eIy
 gOC
-jnM
-pRZ
+omp
+jmU
 gzt
 qwa
 cwC
@@ -105099,7 +105153,7 @@ cXg
 dPv
 orp
 omp
-pmI
+omp
 jnM
 dpr
 dpr
@@ -105676,12 +105730,12 @@ jnM
 jnM
 jnM
 pmI
-pmI
-cwC
+omp
+omp
 omp
 cwC
-cwC
-cwC
+omp
+omp
 cwC
 orp
 orp
@@ -105879,20 +105933,20 @@ jnM
 pmI
 pmI
 pmI
-cwC
-cwC
 omp
 omp
-cwC
 pmI
-cwC
-cwC
-tAq
-jnM
+pmI
+pmI
+pmI
+pmI
 pmI
 jEu
-cwC
-omp
+pmI
+pmI
+jEu
+pmI
+pmI
 pmI
 omp
 omp
@@ -106080,21 +106134,21 @@ cwC
 pmI
 pmI
 pmI
-jnM
-jnM
-jnM
-cwC
-cwC
+pmI
+pmI
+pmI
 pmI
 omp
+omp
+omp
+omp
+omp
+pmI
+ctm
+pmI
+pmI
 cwC
-jnM
-jnM
-pRZ
-jnM
-jnM
-cwC
-cwC
+omp
 omp
 omp
 pmI
@@ -106295,7 +106349,7 @@ jnM
 pmI
 kYu
 jnM
-cwC
+omp
 cwC
 inQ
 dnh
@@ -160490,7 +160544,7 @@ sop
 sop
 xQg
 vAU
-vAU
+aPb
 xQg
 rNL
 nMq
@@ -160893,7 +160947,7 @@ sop
 sop
 xQg
 xQg
-dDq
+xRF
 vAU
 nMq
 nMq
