@@ -43773,8 +43773,6 @@
 /obj/effect/mapping_helpers/access/locker,
 /obj/effect/mapping_helpers/access/keyset/manor/general,
 /obj/structure/door/viewport{
-	lockid = "house2";
-	name = "Staff Entrance";
 	dir = 1
 	},
 /turf/open/floor/ruinedwood/turned/darker,
